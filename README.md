@@ -5,8 +5,9 @@ This Jupyter Notebook contains a simple Python program that calculates Body Mass
 1. Clone the repository or download the BMI_calculator.ipynb file.
 2. Open the file in Jupyter Notebook or a compatible environment.
 3. Run the program by clicking on the "Run" button in the toolbar or using the "Shift+Enter" keyboard shortcut.
-4. Enter your name, weight in pounds, and height in inches when prompted.
-5. The program will display your BMI and weight status category.
+4. Enter your name and preferred unit system when prompted.
+5. Enter your weight and height in the appropriate units when prompted.
+6. The program will display your BMI and weight status category.
 
 Note: If the user enters invalid inputs, the program will prompt them to enter valid inputs.
 
@@ -14,5 +15,5 @@ Note: If the user enters invalid inputs, the program will prompt them to enter v
 This program is licensed under the MIT License. See the LICENSE file for more information.
 
 ## Acknowledgments
-This program was created as a beginner Python project.
-BMI formula used: BMI = (weight * 703)/(height * height)
+- This program was created as a beginner Python project.
+- BMI formula used: BMI = weight / (height ** 2) for metric units, and BMI = (weight * 703)/(height * height) for imperial units.
